@@ -1,0 +1,78 @@
+/*Margin, padding and box-sizing resets*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Media queries*/
+@media screen and (max-width: 600px) {}
+
+/*Background color*/
+html {
+    background-color: #252525;
+    overflow-x: hidden;
+}
+
+/*Page fade-ins*/
+.fade-in {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 120px;
+    background: white;
+    padding-right: 100px;
+    border-bottom: 7px brown solid;
+}
+
+header {
+    position: relative;
+    z-index: 99;
+}
+
+#img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#header-img {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    margin: 10px 0;
+}
+
+#banner {
+    margin-top: 120px;
+}
+
+#email {
+    width: 200px;
+    height: 13px;
+}
+
+li {
+    cursor: pointer;
+}
+
+input {
+    margin-top: 1000px;
+}
+
+#video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
