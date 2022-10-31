@@ -29,10 +29,25 @@ nav {
     position: fixed;
     top: 0px;
     width: 100vw;
-    height: 120px;
+    height: 70px;
     background: white;
     padding-right: 100px;
     border-bottom: 7px brown solid;
+    z-index: 9999;
+}
+
+.nav-link {
+    z-index: 9999;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+a:hover {
+    color: brown;
 }
 
 header {
@@ -47,20 +62,21 @@ header {
 
 #header-img {
     width: 100px;
-    height: 100px;
+    height: 64px;
     position: fixed;
     top: 0px;
-    z-index: 1;
-    margin: 10px 0;
+    margin: 0px 0;
+    z-index: 99999;
 }
 
 #banner {
-    margin-top: 120px;
+    margin-top: 70px;
 }
 
 #email {
     width: 200px;
     height: 13px;
+    margin-left: 300px;
 }
 
 li {
@@ -68,11 +84,83 @@ li {
 }
 
 input {
-    margin-top: 1000px;
+    margin-top: 70px;
+}
+
+iframe {
+    z-index: 1;
 }
 
 #video {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
+}
+
+.article {
+    width: 500px;
+    text-align: center;
+    margin: 20px 170px;
+    color: white;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.pricing {
+    background: white;
+    width: 217px;
+    height: 30px;
+}
+
+.price-text {
+    margin-left: 70px;
+}
+
+.nft-header {
+    margin-left: 50px;
+    color: white;
+}
+
+#email-header {
+    color: white;
+    width: 400px;
+    text-align: center;
+    margin-left: 230px;
+}
+
+#bruh {
+    width: 100px;
+    height: 100px;
+    margin-left: 370px;
+    position: absolute;
+}
+
+#end-of-page {
+    background: white;
+    border-top: 7px brown solid;
+    width: 100vw;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.sheep1 {
+    position: absolute;
+    margin-left: -70px;
+    width: 50px;
+    height: 50px;
+}
+
+.sheep2 {
+    position: absolute;
+    margin-left: 550px;
+    width: 50px;
+    height: 50px;
 }
