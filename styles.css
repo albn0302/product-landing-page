@@ -12,6 +12,7 @@
 html {
     background-color: #252525;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 /*Page fade-ins*/
